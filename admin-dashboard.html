@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Admin Dashboard</title>
+	</head>
+	<body>
+		<div class="min-h-screen flex flex-col items-center bg-gray-900">
+			<div class="flex space-x-4">
+				<button class="bg-blue-500 p-4 rounded text-white">View</button>
+				<button class="bg-green-500 p-4 rounded text-white">Manage</button>
+			</div>
+			<div
+				id="manage-section"
+				class="mt-4 w-full p-4 bg-gray-800 rounded-lg hidden"
+			>
+				<div class="flex space-x-4">
+					<div class="switch">
+						<input type="checkbox" id="switch1" class="hidden" />
+						<label
+							for="switch1"
+							class="block w-12 h-6 bg-gray-600 rounded-full cursor-pointer"
+						></label>
+					</div>
+					<div class="switch">
+						<input type="checkbox" id="switch2" class="hidden" />
+						<label
+							for="switch2"
+							class="block w-12 h-6 bg-gray-600 rounded-full cursor-pointer"
+						></label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
