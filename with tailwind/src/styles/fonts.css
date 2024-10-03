@@ -1,0 +1,22 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css");
+
+@font-face {
+	font-family: "rotabold";
+	src: url("../fonts/rota-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ethosnova";
+	src: url("../fonts/ethosnova-medium-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "ethosnova-thin";
+	src: url("../fonts/EthosNova-Thin.otf") format("otf");
+	font-weight: normal;
+	font-style: normal;
+}
